@@ -24,4 +24,11 @@ logs/*.out
 # RF S-parameter Touchstone files
 *.s2p
 
+# Binary/artifacts (keep repo slim)
+*.mat
+*.fig
+*.png
+*.prn
+*.zip
+
 
