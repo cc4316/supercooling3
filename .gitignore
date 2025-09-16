@@ -1,5 +1,6 @@
 *.s2p
 .DS_Store
+# MATLAB Drive metadata tags (removed from expdata and kept ignored)
 .MATLABDriveTag
 **/.MATLABDriveTag
 
