@@ -1,0 +1,9 @@
+Temp_C,f_low_MHz,f_high_MHz,eps_low_real,eps_low_imag,eps_high_real,eps_high_imag,notes
+40.75,925,2231,72.81,-2.254,,,source: Table 1 (low/high freqs 925/2231 MHz)
+19.75,923,2227,80.16,-4.156,9.883,,high-eps real only reported
+5.0,921,2225,85.4,-7.01,15.9,,footnote a on low-real
+-5.2,920,,88.8,-10.86,,,single frequency reported
+-7.3,919,,90.02,-11.83,,,single frequency reported
+-9.9,918,,91.61,-13.16,,,single frequency reported
+-12.1,918,,92.24,-14.4,,,footnote l on low-imag
+-15.1,918,,93.49,-16.10,,,single frequency reported
