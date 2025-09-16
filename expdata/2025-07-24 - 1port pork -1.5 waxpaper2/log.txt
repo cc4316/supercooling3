@@ -1,0 +1,8 @@
+-1.5 deg
+dF 0.1 deg
+
+돈등심 8X8X2
+
+1     5 sample
+
+4     8 amb

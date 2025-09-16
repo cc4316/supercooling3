@@ -1,0 +1,26 @@
+VNA data in: 10GHzSetup
+temp setup: cycle1,2 -1.5 deg, after -0.5 deg
+cycle 4, add styrofoam
+
+7/30 19:33에 샘플 제거
+
+
+160mm antenna to sample
+Abosorber below sample
+Port1 Antenna - 3 
+Port2 Antenna - 4
+
+
+  ------Antenna-----         
+         160 mm
+  ====Sample====
+  ^^^Absorber^^^^
+
+
+Temperature:
+Sample#1 (Port#1 Left)   - CH1 (Ambient CH2)
+Sample#2 (Port#2 Right) - CH3 (Ambient CH3)
+left wall CH7 right wall CH6
+
+Sample#1 (Port#1 Left)   - CH1 (Ambient CH5)
+Sample#2 (Port#2 Right) - CH2 (Ambient CH4)

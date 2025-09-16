@@ -1,0 +1,17 @@
+왼쪽
+k-band patch with plate
+port1
+
+CH4 <- 안테나 옆
+CH3
+CH2
+CH1
+
+오른쪽
+k-band patch without plate
+port2
+CH6 <- 안테나 옆
+CH5 <- 샘플위치
+
+CH8 <- 냉장고 뒤 구멍
+CH7 <- 냉장고 앞 (유리 안쪽)

@@ -1,0 +1,2 @@
+param,precision_mag,precision_phase,recall_any,tp_mag,fp_mag,tp_phase,fp_phase,n_events
+S22,0,0.00120336943441637,0.75,0,7277,4,3320,4

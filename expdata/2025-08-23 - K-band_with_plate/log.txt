@@ -1,0 +1,7 @@
+CH5 - VNA 앞
+CH6 - 냉장고 뒤
+CH8 냉장고 안 안테나 port1 의 옆
+CH4 아래 플레이트의 냉장고 문쪽
+
+port1 kband ant. with plate - 냉장고 안에 가운데
+port2 kband ant. without plate  - 냉장고 밖에서 냉장고 왼쪽면 바라보도록

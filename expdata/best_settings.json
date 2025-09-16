@@ -1,0 +1,22 @@
+{
+  "generated_at": "2025-09-15 04:15:18",
+  "base_folder": "/Users/seunghuncha/MATLAB-Drive/supercooling3/expdata",
+  "overall": {
+    "Param": "S11",
+    "FilterType": "lowpass",
+    "CutoffHz": 0.002,
+    "BandstopHz": null,
+    "FilterOrder": 2,
+    "FilterDesign": "bessel",
+    "FilterMode": "causal",
+    "EventK": 28,
+    "success_rate": 0.47222222222222221,
+    "success_rate_detailed": 0.47222222222222221,
+    "mean_delta_mag_s": null,
+    "mean_delta_phase_s": 13.117647058823529,
+    "fp_mag_count": 11,
+    "fp_phase_count": 29,
+    "score": 0.072222222222222188
+  },
+  "per_port": []
+}

@@ -1,0 +1,24 @@
+Temperature: -1.5
+Fridge: Small
+VNA: MS4644B
+Sample - 돈 등심 - 유산지 2겹
+
+#1
+---------------------------
+Port#1 VNA;
+between metal plates. Antenna mounted on metal plate.
+Sample placed on metal plate. 185mm spacing.
+
+CH1 - Sample (below it)
+CH2 - Next to antenna
+CH3 - Sample Ambient
+CH8 - Abment- between sample and door
+----------------------------
+Port#2 VNA
+In freespace. Absorber below.
+Antenna mounted on styrofoam. 185mm spacing.
+
+CH4 - Sample (below it)
+CH5 - Next to antenna
+CH6 - Sample Ambient
+CH7 - Abment- between sample and door

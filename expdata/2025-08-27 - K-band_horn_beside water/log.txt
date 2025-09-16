@@ -1,0 +1,5 @@
+port1: inside fridge horn with reflector, 안테나 옆에 증류수
+port2: outside fridge horn with reflector
+
+CH1: inside fridge, lens
+CH2: distillted water

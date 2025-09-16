@@ -1,0 +1,37 @@
+exp,param,freq_GHz,t_temp,delta_mag_s,delta_phase_s,success,n_mag_events,n_phase_events
+2025-09-09 - patch with plate and horn,S22,24,2025-09-09 22:50:19.000,NaN,NaN,0,29,1
+2025-09-09 - patch with plate and horn,S22,24.05,2025-09-09 22:50:19.000,NaN,NaN,0,15,5
+2025-09-09 - patch with plate and horn,S22,24.1,2025-09-09 22:50:19.000,NaN,NaN,0,17,3
+2025-09-09 - patch with plate and horn,S22,24.15,2025-09-09 22:50:19.000,NaN,NaN,0,34,2
+2025-09-09 - patch with plate and horn,S22,24.2,2025-09-09 22:50:19.000,NaN,NaN,0,1,0
+2025-09-09 - patch with plate and horn,S22,24.25,2025-09-09 22:50:19.000,NaN,NaN,0,11,2
+2025-09-10 - patch with plate and horn2,S22,24,2025-09-11 05:14:36.000,NaN,22,1,147,12
+2025-09-10 - patch with plate and horn2,S22,24.05,2025-09-11 05:14:36.000,NaN,22,1,75,7
+2025-09-10 - patch with plate and horn2,S22,24.1,2025-09-11 05:14:36.000,NaN,22,1,27,7
+2025-09-10 - patch with plate and horn2,S22,24.15,2025-09-11 05:14:36.000,NaN,22,1,47,9
+2025-09-10 - patch with plate and horn2,S22,24.2,2025-09-11 05:14:36.000,NaN,17,1,41,9
+2025-09-10 - patch with plate and horn2,S22,24.25,2025-09-11 05:14:36.000,NaN,12,1,51,8
+2025-09-11 - beef patch with plate and horn,S22,24,2025-09-11 20:00:24.000,NaN,NaN,0,1,1
+2025-09-11 - beef patch with plate and horn,S22,24.05,2025-09-11 20:00:24.000,NaN,NaN,0,1,1
+2025-09-11 - beef patch with plate and horn,S22,24.1,2025-09-11 20:00:24.000,NaN,NaN,0,1,1
+2025-09-11 - beef patch with plate and horn,S22,24.15,2025-09-11 20:00:24.000,NaN,NaN,0,7,4
+2025-09-11 - beef patch with plate and horn,S22,24.2,2025-09-11 20:00:24.000,NaN,NaN,0,2,3
+2025-09-11 - beef patch with plate and horn,S22,24.25,2025-09-11 20:00:24.000,NaN,NaN,0,1,4
+2025-09-11 - beef patch with plate and horn2,S22,24,2025-09-12 01:02:23.000,NaN,NaN,0,70,1
+2025-09-11 - beef patch with plate and horn2,S22,24.05,2025-09-12 01:02:23.000,NaN,NaN,0,60,1
+2025-09-11 - beef patch with plate and horn2,S22,24.1,2025-09-12 01:02:23.000,NaN,NaN,0,30,1
+2025-09-11 - beef patch with plate and horn2,S22,24.15,2025-09-12 01:02:23.000,NaN,NaN,0,192,2
+2025-09-11 - beef patch with plate and horn2,S22,24.2,2025-09-12 01:02:23.000,NaN,NaN,0,105,3
+2025-09-11 - beef patch with plate and horn2,S22,24.25,2025-09-12 01:02:23.000,NaN,NaN,0,16,2
+2025-09-12 - beef patch with plate and horn,S22,24,2025-09-12 19:38:16.000,NaN,NaN,0,28,2
+2025-09-12 - beef patch with plate and horn,S22,24,2025-09-12 23:16:27.000,NaN,NaN,0,28,2
+2025-09-12 - beef patch with plate and horn,S22,24.05,2025-09-12 19:38:16.000,NaN,NaN,0,245,19
+2025-09-12 - beef patch with plate and horn,S22,24.05,2025-09-12 23:16:27.000,NaN,NaN,0,245,19
+2025-09-12 - beef patch with plate and horn,S22,24.1,2025-09-12 19:38:16.000,NaN,NaN,0,109,6
+2025-09-12 - beef patch with plate and horn,S22,24.1,2025-09-12 23:16:27.000,NaN,NaN,0,109,6
+2025-09-12 - beef patch with plate and horn,S22,24.15,2025-09-12 19:38:16.000,NaN,NaN,0,104,9
+2025-09-12 - beef patch with plate and horn,S22,24.15,2025-09-12 23:16:27.000,NaN,NaN,0,104,9
+2025-09-12 - beef patch with plate and horn,S22,24.2,2025-09-12 19:38:16.000,NaN,NaN,0,372,18
+2025-09-12 - beef patch with plate and horn,S22,24.2,2025-09-12 23:16:27.000,NaN,NaN,0,372,18
+2025-09-12 - beef patch with plate and horn,S22,24.25,2025-09-12 19:38:16.000,NaN,NaN,0,43,3
+2025-09-12 - beef patch with plate and horn,S22,24.25,2025-09-12 23:16:27.000,NaN,NaN,0,43,3

@@ -1,0 +1,9 @@
+큰 vna
+
+port1 냉장고 안 혼안테나
+구리판 위 PTFE
+CH1
+
+port2 냉장고 밖 혼 안테나
+구리 테이프 위 PTFE
+CH2
