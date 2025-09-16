@@ -104,7 +104,7 @@ p = inputParser;
 addParameter(p, 'CutoffHz', 0.005, @(x) isnumeric(x) && isscalar(x) && x > 0);
 addParameter(p, 'Save', true, @(x) islogical(x) && isscalar(x));
 addParameter(p, 'Plot', true, @(x) islogical(x) && isscalar(x));
-addParameter(p, 'Freq', 24:0.1:24.5, @(x) isnumeric(x) && isvector(x) && all(x > 0));
+addParameter(p, 'Freq', 24:0.05:24.25, @(x) isnumeric(x) && isvector(x) && all(x > 0));
 addParameter(p, 'FreqUnit', 'GHz', @(s) ischar(s) || isstring(s));
 addParameter(p, 'PhaseUnit', 'deg', @(s) ischar(s) || isstring(s));
 addParameter(p, 'PhasePlotUnit', 'deg', @(s) ischar(s) || isstring(s));
@@ -454,6 +454,46 @@ elseif freqUnit == "hz"
     freqHz = freqVal(:).';
 else
     error('combine_sparam_lowpass:BadFreqUnit', 'FreqUnit은 Hz 또는 GHz만 지원합니다.');
+end
+
+% 설정 요약 출력(중요 항목만)
+try
+    fprintf('=== combine_sparam_lowpass 설정 ===\n');
+    % DataDir/Param
+    fprintf('- DataDir: %s\n', char(dataDir));
+    fprintf('- Param: %s\n', char(paramSel));
+    % 주파수 요약(요청값 기준)
+    fminReq = min(freqVal(:));
+    fmaxReq = max(freqVal(:));
+    fprintf('- Freq: %.6g–%.6g %s (N=%d)\n', fminReq, fmaxReq, upper(char(freqUnit)), numel(freqVal));
+    % 필터 요약
+    if filterType == "lowpass"
+        fprintf('- Filter: %s/%s, N=%d, Mode=%s, Cutoff=%.6g Hz\n', upper(char(filterType)), lower(char(filterDesign)), filtOrder, char(filterMode), cutoffHz);
+        if filterDesign == "elliptic"
+            fprintf('  Elliptic Rp=%.3g dB, Rs=%.3g dB\n', ellipRp, ellipRs);
+        end
+    else
+        fprintf('- Filter: %s/%s, N=%d, Mode=%s, Stop=[%.6g %.6g] Hz\n', upper(char(filterType)), lower(char(filterDesign)), filtOrder, char(filterMode), double(bandstopHz(1)), double(bandstopHz(2)));
+        if filterDesign == "notch"
+            f0u = (double(bandstopHz(1)) + double(bandstopHz(2))) / 2;
+            if ~isnan(notchQ) && notchQ > 0
+                fprintf('  Notch f0=%.6g Hz, Q=%.3g\n', f0u, notchQ);
+            else
+                fprintf('  Notch f0=%.6g Hz\n', f0u);
+            end
+        elseif filterDesign == "elliptic"
+            fprintf('  Elliptic Rp=%.3g dB, Rs=%.3g dB\n', ellipRp, ellipRs);
+        end
+    end
+    % 저장/플롯/웨이블릿
+    try
+        fmtList = strjoin(cellfun(@(s) lower(char(s)), figFormats, 'UniformOutput', false), ',');
+    catch
+        fmtList = '';
+    end
+    fprintf('- Save: %s, SaveFig: %s, FigFormats: %s\n', local_boolstr(doSave), local_boolstr(saveFig), fmtList);
+    fprintf('- Plot: %s, PlotFilterResponse: %s, RunWavelet: %s\n', local_boolstr(doPlot), local_boolstr(plotFilterResp), local_boolstr(runWavelet));
+catch
 end
 
 % 파일 검색 (part001~). 없으면 sparam_data.mat 폴백
@@ -1412,5 +1452,15 @@ function local_save_prefs(dataDir, prefs)
         save(prefPath, 'prefs');
     catch
         % ignore
+    end
+end
+
+function s = local_boolstr(x)
+    if islogical(x) && isscalar(x) && x
+        s = 'true';
+    elseif isnumeric(x) && isscalar(x) && x ~= 0
+        s = 'true';
+    else
+        s = 'false';
     end
 end
