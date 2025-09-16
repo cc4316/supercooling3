@@ -1,34 +1,3 @@
-# macOS
-.DS_Store
-._*
-.Spotlight-V100
-.Trashes
-Icon?
-.AppleDouble
-.LSOverride
-
-# MATLAB autosave/backup
-*.asv
-*~
-*.m~
-
-# MATLAB generated caches (if any)
-codegen/
-slprj/
-sccprj/
-
-# Logs (local runtime outputs)
-logs/*.log
-logs/*.out
-
-# RF S-parameter Touchstone files
 *.s2p
-
-# Binary/artifacts (keep repo slim)
-*.mat
-*.fig
-*.png
-*.prn
-*.zip
 
 

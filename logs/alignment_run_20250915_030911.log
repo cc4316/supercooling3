@@ -1,0 +1,973 @@
+run_alignment_pipeline 시작: 15-Sep-2025 03:09:11
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/elliptic N=4 | Mode=causal | Cutoff=0.05 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=2.8% (1/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.001 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=27.8% (10/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.001 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=27.8% (10/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.001 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=25.0% (9/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.001 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=19.4% (7/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.001 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=16.7% (6/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.001 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=13.9% (5/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.001 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=0.0% (이벤트 기준, 0/6) | 성공률(세부)=0.0% (0/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.001 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=0.0% (이벤트 기준, 0/6) | 성공률(세부)=0.0% (0/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.001 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=0.0% (이벤트 기준, 0/6) | 성공률(세부)=0.0% (0/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.001 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=0.0% (이벤트 기준, 0/6) | 성공률(세부)=0.0% (0/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.001 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=0.0% (이벤트 기준, 0/6) | 성공률(세부)=0.0% (0/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.001 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=0.0% (이벤트 기준, 0/6) | 성공률(세부)=0.0% (0/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.002 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=100.0% (이벤트 기준, 6/6) | 성공률(세부)=58.3% (21/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.002 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=83.3% (이벤트 기준, 5/6) | 성공률(세부)=52.8% (19/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.002 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=50.0% (18/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.002 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=50.0% (18/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.002 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=47.2% (17/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.002 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=47.2% (17/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.002 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=19.4% (7/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.002 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=16.7% (6/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.002 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=13.9% (5/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.002 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=8.3% (3/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.002 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=8.3% (3/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.002 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=8.3% (3/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.003 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=83.3% (이벤트 기준, 5/6) | 성공률(세부)=38.9% (14/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.003 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=83.3% (이벤트 기준, 5/6) | 성공률(세부)=33.3% (12/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.003 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=30.6% (11/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.003 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=27.8% (10/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.003 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=27.8% (10/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.003 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=25.0% (9/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.003 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=47.2% (17/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.003 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=47.2% (17/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.003 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=47.2% (17/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.003 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=47.2% (17/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.003 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=47.2% (17/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.003 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=47.2% (17/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.004 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=36.1% (13/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.004 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=30.6% (11/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.004 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=25.0% (9/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.004 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=25.0% (9/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.004 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=16.7% (6/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.004 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=11.1% (4/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.004 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=50.0% (18/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.004 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=50.0% (18/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.004 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=50.0% (18/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.004 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=50.0% (18/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.004 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=50.0% (18/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.004 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=50.0% (18/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.005 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=38.9% (14/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.005 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=36.1% (13/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.005 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=30.6% (11/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.005 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=27.8% (10/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.005 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=27.8% (10/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.005 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=11.1% (4/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.005 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=83.3% (이벤트 기준, 5/6) | 성공률(세부)=41.7% (15/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.005 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=33.3% (12/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.005 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=33.3% (12/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.005 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=30.6% (11/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.005 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=27.8% (10/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.005 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=22.2% (8/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.006 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=44.4% (16/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.006 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=41.7% (15/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.006 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=30.6% (11/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.006 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=27.8% (10/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.006 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=25.0% (9/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.006 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=16.7% (6/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.006 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=25.0% (9/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.006 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=25.0% (9/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.006 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=19.4% (7/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.006 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=19.4% (7/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.006 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=19.4% (7/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.006 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=13.9% (5/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.007 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=47.2% (17/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.007 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=41.7% (15/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.007 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=36.1% (13/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.007 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=27.8% (10/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.007 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=25.0% (9/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.007 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=13.9% (5/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.007 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=33.3% (12/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.007 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=30.6% (11/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.007 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=25.0% (9/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.007 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=22.2% (8/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.007 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=19.4% (7/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.007 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=11.1% (4/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.008 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=83.3% (이벤트 기준, 5/6) | 성공률(세부)=47.2% (17/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.008 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=83.3% (이벤트 기준, 5/6) | 성공률(세부)=38.9% (14/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.008 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=30.6% (11/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.008 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=27.8% (10/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.008 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=19.4% (7/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.008 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=13.9% (5/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.008 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=38.9% (14/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.008 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=33.3% (12/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.008 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=25.0% (9/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.008 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=22.2% (8/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.008 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=16.7% (6/36)
+요약 조건: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.008 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=11.1% (4/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.001 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=2.8% (1/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.001 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=2.8% (1/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.001 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=2.8% (1/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.001 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=2.8% (1/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.001 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=2.8% (1/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.001 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=2.8% (1/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.001 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=0.0% (이벤트 기준, 0/6) | 성공률(세부)=0.0% (0/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.001 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=0.0% (이벤트 기준, 0/6) | 성공률(세부)=0.0% (0/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.001 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=0.0% (이벤트 기준, 0/6) | 성공률(세부)=0.0% (0/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.001 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=0.0% (이벤트 기준, 0/6) | 성공률(세부)=0.0% (0/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.001 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=0.0% (이벤트 기준, 0/6) | 성공률(세부)=0.0% (0/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.001 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=0.0% (이벤트 기준, 0/6) | 성공률(세부)=0.0% (0/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.002 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=13.9% (5/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.002 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=13.9% (5/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.002 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=13.9% (5/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.002 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=13.9% (5/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.002 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=13.9% (5/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.002 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=13.9% (5/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.002 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=8.3% (3/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.002 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=8.3% (3/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.002 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=8.3% (3/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.002 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=8.3% (3/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.002 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=8.3% (3/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.002 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=8.3% (3/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.003 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=16.7% (6/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.003 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=11.1% (4/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.003 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=11.1% (4/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.003 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=11.1% (4/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.003 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=11.1% (4/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.003 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=8.3% (3/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.003 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=11.1% (4/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.003 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=11.1% (4/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.003 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=11.1% (4/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.003 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=11.1% (4/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.003 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=11.1% (4/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.003 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=11.1% (4/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.004 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=27.8% (10/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.004 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=13.9% (5/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.004 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=11.1% (4/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.004 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=11.1% (4/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.004 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=11.1% (4/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.004 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=11.1% (4/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.004 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=11.1% (4/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.004 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=5.6% (2/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.004 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=5.6% (2/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.004 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=5.6% (2/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.004 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=2.8% (1/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.004 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=2.8% (1/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.005 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=44.4% (16/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.005 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=33.3% (12/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.005 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=25.0% (9/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.005 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=25.0% (9/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.005 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=25.0% (9/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.005 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=25.0% (9/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.005 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=13.9% (5/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.005 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=11.1% (4/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.005 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=8.3% (3/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.005 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=8.3% (3/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.005 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=8.3% (3/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.005 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=16.7% (이벤트 기준, 1/6) | 성공률(세부)=8.3% (3/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.006 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=50.0% (18/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.006 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=41.7% (15/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.006 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=33.3% (12/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.006 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=27.8% (10/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.006 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=25.0% (9/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.006 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=25.0% (9/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.006 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=38.9% (14/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.006 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=25.0% (9/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.006 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=16.7% (6/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.006 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=13.9% (5/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.006 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=11.1% (4/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.006 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=11.1% (4/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.007 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=50.0% (18/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.007 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=41.7% (15/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.007 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=38.9% (14/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.007 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=30.6% (11/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.007 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=27.8% (10/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.007 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=22.2% (8/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.007 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=38.9% (14/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.007 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=33.3% (12/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.007 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=22.2% (8/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.007 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=16.7% (6/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.007 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=13.9% (5/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.007 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=11.1% (4/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.008 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=52.8% (19/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.008 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=66.7% (이벤트 기준, 4/6) | 성공률(세부)=52.8% (19/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.008 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=41.7% (15/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.008 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=36.1% (13/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.008 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=33.3% (12/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=2 | Mode=causal | Cutoff=0.008 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=27.8% (10/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.008 Hz | EventK=10 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=44.4% (16/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.008 Hz | EventK=12 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=44.4% (16/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.008 Hz | EventK=14 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=33.3% (12/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.008 Hz | EventK=16 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=30.6% (11/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.008 Hz | EventK=18 | AlignWindow=[0 30] s
+요약 결과: 성공률=50.0% (이벤트 기준, 3/6) | 성공률(세부)=27.8% (10/36)
+[Warning: 온도 이벤트 없음(2025-09-10 - patch with plate and horn): 수동 CSV 내용을 확인하세요] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 154)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',154,0)">line 154</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)] 
+요약 조건: Param=S22 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25
+요약 조건: Filter=lowpass/bessel N=3 | Mode=causal | Cutoff=0.008 Hz | EventK=20 | AlignWindow=[0 30] s
+요약 결과: 성공률=33.3% (이벤트 기준, 2/6) | 성공률(세부)=22.2% (8/36)
+추천 설정(점수 기준)
+     <strong>Param</strong>     <strong>FilterType</strong>     <strong>CutoffHz</strong>    <strong>BandstopHz</strong>    <strong>FilterOrder</strong>    <strong>FilterDesign</strong>    <strong>FilterMode</strong>    <strong>EventK</strong>    <strong>success_rate</strong>    <strong>success_rate_detailed</strong>    <strong>mean_delta_mag_s</strong>    <strong>mean_delta_phase_s</strong>    <strong>fp_mag_per_min</strong>    <strong>fp_phase_per_min</strong>     <strong>score</strong> 
+    <strong>_______</strong>    <strong>___________</strong>    <strong>________</strong>    <strong>__________</strong>    <strong>___________</strong>    <strong>____________</strong>    <strong>__________</strong>    <strong>______</strong>    <strong>____________</strong>    <strong>_____________________</strong>    <strong>________________</strong>    <strong>__________________</strong>    <strong>______________</strong>    <strong>________________</strong>    <strong>_______</strong>
+
+    {'S11'}    {'lowpass'}     0.002         NaN             2          {'bessel'}     {'causal'}      10        0.58333              0.58333                 6.75                14.65              0.050459           0.036991        0.58246
+
+리포트 저장: /Users/seunghuncha/MATLAB-Drive/supercooling3/reports/transition_alignment_report.md
+완료: /Users/seunghuncha/MATLAB-Drive/supercooling3/reports/transition_alignment_report.md
+종료: 15-Sep-2025 03:32:10

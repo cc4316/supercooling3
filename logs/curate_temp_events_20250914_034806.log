@@ -1,0 +1,52 @@
+Start curate: 14-Sep-2025 03:48:06
+[Warning: FAIL: 2025-09-09 - patch with plate and horn / S11 → 입력 CSV를
+찾지 못했습니다:
+/Users/seunghuncha/MATLAB-Drive/supercooling3/expdata/2025-09-09 - patch
+with plate and horn/temp_events_S11.csv] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_curate_temp_events', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m', 46)" style="font-weight:bold">run_curate_temp_events</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m',46,0)">line 46</a>)] 
+[Warning: FAIL: 2025-09-10 - patch with plate and horn / S11 → 입력 CSV를
+찾지 못했습니다:
+/Users/seunghuncha/MATLAB-Drive/supercooling3/expdata/2025-09-10 - patch
+with plate and horn/temp_events_S11.csv] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_curate_temp_events', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m', 46)" style="font-weight:bold">run_curate_temp_events</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m',46,0)">line 46</a>)] 
+[Warning: FAIL: 2025-09-10 - patch with plate and horn2 / S11 → 입력 CSV를
+찾지 못했습니다:
+/Users/seunghuncha/MATLAB-Drive/supercooling3/expdata/2025-09-10 - patch
+with plate and horn2/temp_events_S11.csv] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_curate_temp_events', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m', 46)" style="font-weight:bold">run_curate_temp_events</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m',46,0)">line 46</a>)] 
+[Warning: FAIL: 2025-09-11 - beef patch with plate and horn / S11 → 입력
+CSV를 찾지 못했습니다:
+/Users/seunghuncha/MATLAB-Drive/supercooling3/expdata/2025-09-11 - beef
+patch with plate and horn/temp_events_S11.csv] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_curate_temp_events', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m', 46)" style="font-weight:bold">run_curate_temp_events</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m',46,0)">line 46</a>)] 
+[Warning: FAIL: 2025-09-11 - beef patch with plate and horn2 / S11 → 입력
+CSV를 찾지 못했습니다:
+/Users/seunghuncha/MATLAB-Drive/supercooling3/expdata/2025-09-11 - beef
+patch with plate and horn2/temp_events_S11.csv] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_curate_temp_events', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m', 46)" style="font-weight:bold">run_curate_temp_events</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m',46,0)">line 46</a>)] 
+[Warning: FAIL: 2025-09-09 - patch with plate and horn / S22 → 입력 CSV를
+찾지 못했습니다:
+/Users/seunghuncha/MATLAB-Drive/supercooling3/expdata/2025-09-09 - patch
+with plate and horn/temp_events_S22.csv] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_curate_temp_events', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m', 46)" style="font-weight:bold">run_curate_temp_events</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m',46,0)">line 46</a>)] 
+[Warning: FAIL: 2025-09-10 - patch with plate and horn / S22 → 입력 CSV를
+찾지 못했습니다:
+/Users/seunghuncha/MATLAB-Drive/supercooling3/expdata/2025-09-10 - patch
+with plate and horn/temp_events_S22.csv] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_curate_temp_events', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m', 46)" style="font-weight:bold">run_curate_temp_events</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m',46,0)">line 46</a>)] 
+[Warning: FAIL: 2025-09-10 - patch with plate and horn2 / S22 → 입력 CSV를
+찾지 못했습니다:
+/Users/seunghuncha/MATLAB-Drive/supercooling3/expdata/2025-09-10 - patch
+with plate and horn2/temp_events_S22.csv] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_curate_temp_events', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m', 46)" style="font-weight:bold">run_curate_temp_events</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m',46,0)">line 46</a>)] 
+[Warning: FAIL: 2025-09-11 - beef patch with plate and horn / S22 → 입력
+CSV를 찾지 못했습니다:
+/Users/seunghuncha/MATLAB-Drive/supercooling3/expdata/2025-09-11 - beef
+patch with plate and horn/temp_events_S22.csv] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_curate_temp_events', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m', 46)" style="font-weight:bold">run_curate_temp_events</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m',46,0)">line 46</a>)] 
+[Warning: FAIL: 2025-09-11 - beef patch with plate and horn2 / S22 → 입력
+CSV를 찾지 못했습니다:
+/Users/seunghuncha/MATLAB-Drive/supercooling3/expdata/2025-09-11 - beef
+patch with plate and horn2/temp_events_S22.csv] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_curate_temp_events', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m', 46)" style="font-weight:bold">run_curate_temp_events</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m',46,0)">line 46</a>)] 
+End curate: 14-Sep-2025 03:48:06

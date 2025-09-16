@@ -1,0 +1,20 @@
+run_alignment_pipeline 시작: 15-Sep-2025 01:30:44
+요약: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25 | Filter=lowpass/elliptic N=4, Mode=causal, Cutoff=0.05 Hz | EventK=20 | AlignWindow=[0 5] s | 성공률=0.0% (0/30)
+요약: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25 | Filter=lowpass/bessel N=2, Mode=causal, Cutoff=0.001 Hz | EventK=15 | AlignWindow=[0 5] s | 성공률=0.0% (0/30)
+요약: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25 | Filter=lowpass/bessel N=2, Mode=causal, Cutoff=0.001 Hz | EventK=20 | AlignWindow=[0 5] s | 성공률=0.0% (0/30)
+요약: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25 | Filter=lowpass/bessel N=3, Mode=causal, Cutoff=0.001 Hz | EventK=15 | AlignWindow=[0 5] s | 성공률=0.0% (0/30)
+요약: Param=S11 | FreqGHz=24        24.05         24.1        24.15         24.2        24.25 | Filter=lowpass/bessel N=3, Mode=causal, Cutoff=0.001 Hz | EventK=20 | AlignWindow=[0 5] s | 성공률=0.0% (0/30)
+{Operation terminated by user during <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment>i_load_manual_temp_events', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 310)" style="font-weight:bold">evaluate_transition_alignment>i_load_manual_temp_events</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',310,0)">line 310</a>)
+
+
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('evaluate_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m', 136)" style="font-weight:bold">evaluate_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/evaluate_transition_alignment.m',136,0)">line 136</a>)
+        Et = i_load_manual_temp_events(expDir, ptag, Tt.Time, Tt.Values, idxT, string(opt.ManualTempEventsFile));
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('sweep_transition_alignment', '/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m', 60)" style="font-weight:bold">sweep_transition_alignment</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/sweep_transition_alignment.m',60,0)">line 60</a>)
+                  [R, detail] = evaluate_transition_alignment(args{:});
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_alignment_pipeline', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m', 50)" style="font-weight:bold">run_alignment_pipeline</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_alignment_pipeline.m',50,0)">line 50</a>)
+summary = sweep_transition_alignment('Exps', opt.Exps, 'FreqGHz', opt.FreqGHz, 'AlignWindow', opt.AlignWindow);
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_alignment_pipeline

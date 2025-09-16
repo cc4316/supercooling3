@@ -1,0 +1,42 @@
+Start curate: 14-Sep-2025 03:46:22
+[Warning: FAIL: 2025-09-09 - patch with plate and horn / S11 → The value
+of 'AddTimes' is invalid. It must satisfy the function:
+@(x)isdatetime(x)||isstring(x)||iscell(x).] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_curate_temp_events', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m', 45)" style="font-weight:bold">run_curate_temp_events</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m',45,0)">line 45</a>)] 
+[Warning: FAIL: 2025-09-10 - patch with plate and horn / S11 → The value
+of 'AddTimes' is invalid. It must satisfy the function:
+@(x)isdatetime(x)||isstring(x)||iscell(x).] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_curate_temp_events', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m', 45)" style="font-weight:bold">run_curate_temp_events</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m',45,0)">line 45</a>)] 
+[Warning: FAIL: 2025-09-10 - patch with plate and horn2 / S11 → The value
+of 'AddTimes' is invalid. It must satisfy the function:
+@(x)isdatetime(x)||isstring(x)||iscell(x).] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_curate_temp_events', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m', 45)" style="font-weight:bold">run_curate_temp_events</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m',45,0)">line 45</a>)] 
+[Warning: FAIL: 2025-09-11 - beef patch with plate and horn / S11 → The
+value of 'AddTimes' is invalid. It must satisfy the function:
+@(x)isdatetime(x)||isstring(x)||iscell(x).] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_curate_temp_events', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m', 45)" style="font-weight:bold">run_curate_temp_events</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m',45,0)">line 45</a>)] 
+[Warning: FAIL: 2025-09-11 - beef patch with plate and horn2 / S11 → The
+value of 'AddTimes' is invalid. It must satisfy the function:
+@(x)isdatetime(x)||isstring(x)||iscell(x).] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_curate_temp_events', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m', 45)" style="font-weight:bold">run_curate_temp_events</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m',45,0)">line 45</a>)] 
+[Warning: FAIL: 2025-09-09 - patch with plate and horn / S22 → The value
+of 'AddTimes' is invalid. It must satisfy the function:
+@(x)isdatetime(x)||isstring(x)||iscell(x).] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_curate_temp_events', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m', 45)" style="font-weight:bold">run_curate_temp_events</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m',45,0)">line 45</a>)] 
+[Warning: FAIL: 2025-09-10 - patch with plate and horn / S22 → The value
+of 'AddTimes' is invalid. It must satisfy the function:
+@(x)isdatetime(x)||isstring(x)||iscell(x).] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_curate_temp_events', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m', 45)" style="font-weight:bold">run_curate_temp_events</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m',45,0)">line 45</a>)] 
+[Warning: FAIL: 2025-09-10 - patch with plate and horn2 / S22 → The value
+of 'AddTimes' is invalid. It must satisfy the function:
+@(x)isdatetime(x)||isstring(x)||iscell(x).] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_curate_temp_events', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m', 45)" style="font-weight:bold">run_curate_temp_events</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m',45,0)">line 45</a>)] 
+[Warning: FAIL: 2025-09-11 - beef patch with plate and horn / S22 → The
+value of 'AddTimes' is invalid. It must satisfy the function:
+@(x)isdatetime(x)||isstring(x)||iscell(x).] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_curate_temp_events', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m', 45)" style="font-weight:bold">run_curate_temp_events</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m',45,0)">line 45</a>)] 
+[Warning: FAIL: 2025-09-11 - beef patch with plate and horn2 / S22 → The
+value of 'AddTimes' is invalid. It must satisfy the function:
+@(x)isdatetime(x)||isstring(x)||iscell(x).] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_curate_temp_events', '/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m', 45)" style="font-weight:bold">run_curate_temp_events</a> (<a href="matlab: opentoline('/Users/seunghuncha/MATLAB-Drive/supercooling3/run_curate_temp_events.m',45,0)">line 45</a>)] 
+End curate: 14-Sep-2025 03:46:23
