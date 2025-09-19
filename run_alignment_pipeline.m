@@ -38,7 +38,8 @@ ip = inputParser;
 ip.addParameter('Exps', load_default_experiments());
 ip.addParameter('Param','S11');
 ip.addParameter('FreqGHz', 24:0.05:24.25);
-ip.addParameter('AlignWindow',[0 30]);
+ip.addParameter('AlignWindow',[0 10]);
+ip.addParameter('GenerateFinalPlots', true, @(x)islogical(x)&&isscalar(x));
 ip.parse(varargin{:});
 opt = ip.Results;
 
@@ -52,6 +53,21 @@ summary = sweep_transition_alignment('Exps', opt.Exps, 'FreqGHz', opt.FreqGHz, '
 % 3) 리포트 생성 (평가/스윕과 동일 주파수 전달)
 repPath = generate_alignment_report('Results', R, 'Summary', summary, 'Detail', detail, ...
     'Freq', opt.FreqGHz, 'FreqUnit', 'GHz');
+
+% 4) (옵션) 스윕 결과의 추천 설정으로 최종 플롯 생성
+if isfield(opt,'GenerateFinalPlots') && opt.GenerateFinalPlots
+    try
+        % 최적화된 필터 적용(플롯 생성/저장) 직전에 기본 가시성 복구
+        set(groot, 'DefaultFigureVisible', 'on');
+    catch
+        set(0, 'DefaultFigureVisible', 'on');
+    end
+    try
+        run_generate_final_plots('Exps', opt.Exps, 'FreqGHz', opt.FreqGHz);
+    catch ME
+        warning('run_generate_final_plots 실패: %s', ME.message);
+    end
+end
 
 paths = struct();
 paths.resultsCsv = fullfile(pwd,'expdata','transition_eval_results.csv');

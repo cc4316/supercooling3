@@ -51,7 +51,7 @@ end
 
 % 옵션 파싱
 p = inputParser;
-addParameter(p, 'FreqSelect', 24, @(x) (isnumeric(x) && isvector(x) && ~isempty(x)) || ischar(x) || isstring(x));
+addParameter(p, 'FreqSelect', 24.2, @(x) (isnumeric(x) && isvector(x) && ~isempty(x)) || ischar(x) || isstring(x));
 addParameter(p, 'T0', 0, @(x) isnumeric(x) && isscalar(x));
 addParameter(p, 'WinSec', [], @(x) isempty(x) || (isnumeric(x) && isscalar(x) && x>0));
 addParameter(p, 'UseFiltered', true, @(x) islogical(x) && isscalar(x));
@@ -544,14 +544,14 @@ if ~isempty(Ttemp) && ~isempty(Ttemp.Time)
             else
                 xPatch = [t0 t1 t1 t0];
             end
-            patch(xPatch, [yL(1) yL(1) yL(2) yL(2)], [0.96 0.96 0.86], 'FaceAlpha', 0.35, 'EdgeColor', 'none');
+            patch(xPatch, [yL(1) yL(1) yL(2) yL(2)], [0.96 0.96 0.86], 'FaceAlpha', 0.35, 'EdgeColor', 'none', 'HandleVisibility','off');
         end
     catch
     end
-    plot(xTemp, Vplot, 'LineWidth', 1.0);
+    hTempL = plot(xTemp, Vplot, 'LineWidth', 1.0);
     if hasSparamDT, try, datetick('x','keeplimits'); end, end
     try, uistack(findobj(gca,'Type','line'),'top'); end
-    ylabel('Temp'); xlabel(xTempLabel); legend(labsPlot, 'Location','best'); title('Temperature');
+    ylabel('Temp'); xlabel(xTempLabel); legend(hTempL, labsPlot, 'Location','best'); title('Temperature');
     axLink(end+1) = gca; %#ok<AGROW>
 
     % 우측 온도(동일 표시, 비교/확대용)
@@ -565,14 +565,14 @@ if ~isempty(Ttemp) && ~isempty(Ttemp.Time)
             else
                 xPatch = [t0 t1 t1 t0];
             end
-            patch(xPatch, [yL(1) yL(1) yL(2) yL(2)], [0.96 0.96 0.86], 'FaceAlpha', 0.35, 'EdgeColor', 'none');
+            patch(xPatch, [yL(1) yL(1) yL(2) yL(2)], [0.96 0.96 0.86], 'FaceAlpha', 0.35, 'EdgeColor', 'none', 'HandleVisibility','off');
         end
     catch
     end
-    plot(xTemp, Vplot, 'LineWidth', 1.0);
+    hTempR = plot(xTemp, Vplot, 'LineWidth', 1.0);
     if hasSparamDT, try, datetick('x','keeplimits'); end, end
     try, uistack(findobj(gca,'Type','line'),'top'); end
-    ylabel('Temp'); xlabel(xTempLabel); legend(labsPlot, 'Location','best'); title('Temperature');
+    ylabel('Temp'); xlabel(xTempLabel); legend(hTempR, labsPlot, 'Location','best'); title('Temperature');
     axLink(end+1) = gca; %#ok<AGROW>
 end
 
@@ -589,7 +589,7 @@ if all(isfinite(yL)) && yL(2) > yL(1)
     else
         xPatch = [t0 t1 t1 t0];
     end
-    patch(xPatch, [yL(1) yL(1) yL(2) yL(2)], [0.85 0.92 1.0], 'FaceAlpha', 0.3, 'EdgeColor', 'none');
+    patch(xPatch, [yL(1) yL(1) yL(2) yL(2)], [0.85 0.92 1.0], 'FaceAlpha', 0.3, 'EdgeColor', 'none', 'HandleVisibility','off');
 end
 % 여러 주파수(열) 지원: raw는 회색, filtered는 색상 반복으로 표시
 cr = get(gca,'ColorOrder');
@@ -629,7 +629,7 @@ if all(isfinite(yL)) && yL(2) > yL(1)
     end
     % 위상 플롯은 deg 단위이므로 패치 y 한계를 deg로 변환
     yLdeg = rad2deg(yL);
-    patch(xPatch, [yLdeg(1) yLdeg(1) yLdeg(2) yLdeg(2)], [0.95 0.9 1.0], 'FaceAlpha', 0.3, 'EdgeColor', 'none');
+    patch(xPatch, [yLdeg(1) yLdeg(1) yLdeg(2) yLdeg(2)], [0.95 0.9 1.0], 'FaceAlpha', 0.3, 'EdgeColor', 'none', 'HandleVisibility','off');
 end
 % 위상은 deg로 표시
 for c = 1:size(ph_full_raw,2)

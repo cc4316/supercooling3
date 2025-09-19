@@ -85,6 +85,8 @@ for ei = 1:numel(exps)
                 'PlotFilterResponse', false, 'SaveFilterFig', false, ...
                 'RunWavelet', false, 'FilterMode', opt.FilterMode, ...
                 'FilterOrder', opt.FilterOrder, 'FilterDesign', opt.FilterDesign, 'FilterType', opt.FilterType};
+        % 완전 비대화 모드로 고정
+        args = [args, {'Interactive', false}];
         if strcmpi(opt.FilterType,'lowpass')
             args = [args, {'CutoffHz', opt.CutoffHz}];
         else

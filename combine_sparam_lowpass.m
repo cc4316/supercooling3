@@ -26,8 +26,9 @@ function varargout = combine_sparam_lowpass(varargin)
 %   'Save'    : 결과를 dataDir 아래 'sparam_combined_filtered_<param>[,_bandstop].mat'로 저장 (기본 true)
 %   'Plot'    : 원신호/필터 신호 간단 플롯 (기본 true)
 %   'FilterMode': 'centered'| 'causal' (기본 'causal')
-%   'FilterOrder': IIR 필터 차수(정수, 기본 4)
-%   'FilterDesign': 'elliptic' | 'butter' | 'bessel' | 'notch' (기본 'elliptic')
+%   'FilterOrder': IIR 필터 차수(정수, 기본 4). 미지정 시 콘솔에서 질의(최근값 기억)
+%   'FilterDesign': 'elliptic' | 'butter' | 'bessel' | 'notch' (기본 'elliptic').
+%                   미지정 시 콘솔에서 질의(최근값 기억). lowpass에서는 notch 비표시
 %   'EllipRp_dB': Elliptic 통과대역 리플(dB, 기본 1)
 %   'EllipRs_dB': Elliptic 저지대역 감쇠(dB, 기본 40)
 %   'NotchQ'    : Notch(Q) 지정(기본 NaN → BandstopHz로 3 dB 대역폭 결정)
@@ -44,13 +45,15 @@ function varargout = combine_sparam_lowpass(varargin)
 %   'DerivCutoffHz': 변화율 저역통과 차단(Hz, 기본 CutoffHz*1.5)
 %   'DerivFilterMode': 'centered'|'causal' (기본 'causal')
 %   'DerivFilterOrder': Butterworth 차수(정수, 기본 FilterOrder)
-%   'ShowEvents': 순간변화율 이벤트 마커 표시 (기본 true)
+%   'DerivFrom': 'filtered'|'raw' (기본 'filtered') — 미분 기준 신호 선택
+%   'ShowEvents': 순간변화율 이벤트 마커 표시 (기본 false)
 %   'EventMagThresh': |d|S||/dt 임계값(dB/s, 비우면 자동 추정)
 %   'EventPhaseThresh': |d∠|/dt 임계값(rad/s, 비우면 자동 추정)
 %   'EventMinSepSec': 이벤트 최소 간격(초, 기본 5*dt)
 %   'EventThreshK': 자동 임계 배수 K (기본 7 → K*MAD)
 %   'EventScope': 'global'|'local' (기본 'local')
 %   'EventLocalSpanSec': 로컬 임계 계산 시 과거 창 길이(초, 기본 1800=30분)
+%   'Interactive': true|false (기본 true). false면 모든 콘솔 프롬프트를 비활성화하고 최근값/기본값을 사용
 %
 % 출력
 %   time_s : 초 단위 시간 벡터(모든 파트 병합, 시작 기준 0 s)
@@ -63,7 +66,8 @@ function varargout = combine_sparam_lowpass(varargin)
 % - .mat 내부 변수명은 가급적 'time'/'s11'을 탐색하며, 대소문자/변형명을 넓게 매칭합니다.
 % - S11이 복소일 경우 실/허수 각각에 동일 필터를 적용합니다.
 % - 추가 전처리(중복 timestamp 제거, 정렬) 포함.
-% - 최근 입력값(필터 유형/차단주파수/밴드저지 대역)을 폴더별로 기억하여 기본값으로 제안합니다.
+% - 최근 입력값(필터 유형/설계/차수/차단주파수/밴드저지 대역)을 폴더별로 기억하여 기본값으로 제안합니다.
+% - NV를 전혀 지정하지 않으면 "기본 설정(최근값/기본값) 사용" 여부를 먼저 물어보고, 동의 시 프롬프트를 생략합니다.
 %
 % 예시
 %   dataDir = fullfile('expdata', '2025-09-05 - patch pork2', 'sParam');
@@ -135,13 +139,15 @@ addParameter(p, 'DerivSmooth', false, @(x) islogical(x) && isscalar(x));
 addParameter(p, 'DerivCutoffHz', NaN, @(x) isnumeric(x) && isscalar(x) && (isnan(x) || x > 0));
 addParameter(p, 'DerivFilterMode', 'causal', @(s) ischar(s) || isstring(s));
 addParameter(p, 'DerivFilterOrder', NaN, @(x) isnumeric(x) && isscalar(x) && (isnan(x) || (x == round(x) && x > 0)));
-addParameter(p, 'ShowEvents', true, @(x) islogical(x) && isscalar(x));
+addParameter(p, 'DerivFrom', 'filtered', @(s) ischar(s) || isstring(s));
+addParameter(p, 'ShowEvents', false, @(x) islogical(x) && isscalar(x));
 addParameter(p, 'EventMagThresh', NaN, @(x) isnumeric(x) && isscalar(x));
 addParameter(p, 'EventPhaseThresh', NaN, @(x) isnumeric(x) && isscalar(x));
 addParameter(p, 'EventMinSepSec', NaN, @(x) isnumeric(x) && isscalar(x) && (isnan(x) || x >= 0));
 addParameter(p, 'EventThreshK', 20, @(x) isnumeric(x) && isscalar(x) && x > 0);
 addParameter(p, 'EventScope', 'local', @(s) ischar(s) || isstring(s));
 addParameter(p, 'EventLocalSpanSec', 1800, @(x) isnumeric(x) && isscalar(x) && x > 0);
+addParameter(p, 'Interactive', true, @(x) islogical(x) && isscalar(x));
 % Relative-extreme event options
 addParameter(p, 'RelWindowSec', 1800, @(x) isnumeric(x) && isscalar(x) && x > 0);
 addParameter(p, 'RelMultiple', 1.5, @(x) isnumeric(x) && isscalar(x) && x > 0);
@@ -181,6 +187,7 @@ saveFilterFigOpt = p.Results.SaveFilterFig;
 derivCutoffHz = p.Results.DerivCutoffHz;
 derivMode  = lower(string(p.Results.DerivFilterMode));
 derivOrder = p.Results.DerivFilterOrder;
+derivFrom  = lower(string(p.Results.DerivFrom));
 showEvents = p.Results.ShowEvents;
 eventMagThresh = p.Results.EventMagThresh;
 eventPhaseThresh = p.Results.EventPhaseThresh;
@@ -191,6 +198,7 @@ eventLocalSpan = p.Results.EventLocalSpanSec;
 relWindowSec = p.Results.RelWindowSec;
 relMultiple = p.Results.RelMultiple;
 eventPolarity = lower(string(p.Results.EventPolarity));
+interactive = p.Results.Interactive;
 if ~(paramSel == "S11" || paramSel == "S22" || paramSel == "BOTH")
     error('combine_sparam_lowpass:BadParam', 'Param은 S11, S22 또는 both만 지원합니다.');
 end
@@ -204,8 +212,8 @@ if ~(filterDesign == "elliptic" || filterDesign == "butter" || filterDesign == "
     error('combine_sparam_lowpass:BadFilterDesign', 'FilterDesign은 elliptic|butter|bessel|notch 중 하나여야 합니다.');
 end
 
-% 필터 유형/대역 제공 여부 확인
-providedFilterType = false; providedBandstop = false;
+% 필터 관련 NV 제공 여부 확인
+providedFilterType = false; providedBandstop = false; providedFilterDesign = false; providedFilterOrder = false; providedCutoff = false;
 if numel(varargin) >= argStart
     nvScan = varargin(argStart:end);
     for kk = 1:2:numel(nvScan)
@@ -213,11 +221,17 @@ if numel(varargin) >= argStart
             key = lower(string(nvScan{kk}));
             if key == "filtertype", providedFilterType = true; end
             if key == "bandstophz", providedBandstop = true; end
+            if key == "filterdesign", providedFilterDesign = true; end
+            if key == "filterorder", providedFilterOrder = true; end
+            if key == "cutoffhz", providedCutoff = true; end
         end
     end
 end
 if ~(derivMode == "centered" || derivMode == "causal")
     error('combine_sparam_lowpass:BadDerivFilterMode', 'DerivFilterMode는 centered 또는 causal만 지원합니다.');
+end
+if ~(derivFrom == "filtered" || derivFrom == "raw")
+    error('combine_sparam_lowpass:BadDerivFrom', 'DerivFrom은 filtered 또는 raw만 지원합니다.');
 end
 if isnan(derivCutoffHz)
     derivCutoffHz = cutoffHz * 1.5;
@@ -227,14 +241,103 @@ if isnan(derivOrder)
 end
 
 % 사용자 입력 프롬프트 (명시 NV 없을 때)
-% 1) 필터 유형 선택
+% 0) 기본 설정 사용 여부 질의 → 예면 프롬프트 전체 생략
 % 최근 입력값 로드(폴더별 저장)
-prefs = struct('lastFilterType', '', 'lastCutoffHz', NaN, 'lastBandstopHz', [NaN NaN]);
+prefs = struct('lastFilterType', '', 'lastCutoffHz', NaN, 'lastBandstopHz', [NaN NaN], ...
+              'lastFilterDesign','', 'lastFilterOrder', NaN, 'lastWaveletUseFiltered', false, ...
+              'lastDerivFrom', 'filtered');
 try
     prefs = local_load_prefs(dataDir, prefs);
 catch, end
 
-if ~providedFilterType
+skipInteractive = false;
+if ~interactive
+    skipInteractive = true;
+end
+if ~providedFilterType && ~providedBandstop && ~providedFilterDesign && ~providedFilterOrder && ~providedCutoff && interactive
+    try
+        % 최근값/기본값으로 적용될 설정 미리 계산하여 요약 표시
+        effFilterType = filterType;
+        if isfield(prefs,'lastFilterType') && ~isempty(prefs.lastFilterType)
+            cand = lower(string(prefs.lastFilterType));
+            if cand=="lowpass" || cand=="bandstop"
+                effFilterType = cand;
+            end
+        end
+        effFilterDesign = filterDesign;
+        if isfield(prefs,'lastFilterDesign') && strlength(string(prefs.lastFilterDesign))>0
+            cand = lower(string(prefs.lastFilterDesign));
+            if effFilterType=="lowpass"
+                if any(cand==["elliptic","butter","bessel"]) % notch 제외
+                    effFilterDesign = cand;
+                end
+            else
+                if any(cand==["elliptic","butter","bessel","notch"]) 
+                    effFilterDesign = cand;
+                end
+            end
+        end
+        effFilterOrder = filtOrder;
+        if isfield(prefs,'lastFilterOrder') && isfinite(prefs.lastFilterOrder) && prefs.lastFilterOrder>0
+            effFilterOrder = round(max(1, prefs.lastFilterOrder));
+        end
+        effCutoffHz = cutoffHz;
+        if isfield(prefs,'lastCutoffHz') && isfinite(prefs.lastCutoffHz) && prefs.lastCutoffHz>0
+            effCutoffHz = prefs.lastCutoffHz;
+        end
+        effBandstopHz = bandstopHz;
+        if isfield(prefs,'lastBandstopHz') && numel(prefs.lastBandstopHz)==2 && all(isfinite(prefs.lastBandstopHz)) && prefs.lastBandstopHz(1)>0 && prefs.lastBandstopHz(2)>0
+            effBandstopHz = prefs.lastBandstopHz;
+        end
+
+        fprintf('기본 설정(최근값/기본값) 요약:\n');
+        if effFilterType == "lowpass"
+            fprintf('  - Filter: LOWPASS / %s, N=%d, Mode=%s, Cutoff=%.6g Hz\n', char(effFilterDesign), effFilterOrder, char(filterMode), effCutoffHz);
+        else
+            if numel(effBandstopHz)==2 && all(isfinite(effBandstopHz)) && effBandstopHz(1)>0 && effBandstopHz(2)>0
+                fprintf('  - Filter: BANDSTOP / %s, N=%d, Mode=%s, Stop=[%.6g %.6g] Hz\n', char(effFilterDesign), effFilterOrder, char(filterMode), double(effBandstopHz(1)), double(effBandstopHz(2)));
+            else
+                fprintf('  - Filter: BANDSTOP / %s, N=%d, Mode=%s, Stop=[미지정]\n', char(effFilterDesign), effFilterOrder, char(filterMode));
+            end
+        end
+        % Wavelet 기본 사용 신호(필터 적용 여부)
+        effWaveUseFiltered = waveUseFiltered;
+        if isfield(prefs,'lastWaveletUseFiltered')
+            try
+                effWaveUseFiltered = logical(prefs.lastWaveletUseFiltered);
+            catch
+            end
+        end
+        fprintf('  - WaveletUseFiltered: %s\n', local_boolstr(effWaveUseFiltered));
+        % DerivFrom 기본값
+        effDerivFrom = derivFrom;
+        if isfield(prefs,'lastDerivFrom') && strlength(string(prefs.lastDerivFrom))>0
+            cand = lower(string(prefs.lastDerivFrom));
+            if any(cand==["filtered","raw"]) 
+                effDerivFrom = cand;
+            end
+        end
+        fprintf('  - DerivFrom: %s\n', char(effDerivFrom));
+        resp0 = input('위 설정으로 진행할까요? 기본 설정 사용 [Y/n]: ', 's');
+        r0 = lower(strtrim(resp0));
+        if isempty(r0) || strcmp(r0,'y') || strcmp(r0,'yes')
+            % 최근값/기본값을 실제 적용
+            filterType   = effFilterType;
+            filterDesign = effFilterDesign;
+            filtOrder    = effFilterOrder;
+            cutoffHz     = effCutoffHz;
+            bandstopHz   = effBandstopHz;
+            waveUseFiltered = effWaveUseFiltered;
+            derivFrom    = effDerivFrom;
+            skipInteractive = true;
+        end
+    catch
+        % 실패 시 프롬프트 진행
+    end
+end
+
+% 1) 필터 유형 선택
+if ~providedFilterType && ~skipInteractive
     try
         fprintf('필터 유형 선택:\n');
         fprintf('  1) lowpass (저역통과)\n');
@@ -273,7 +376,68 @@ if ~providedFilterType
     end
 end
 
-% 2) 각 유형별 추가 파라미터 프롬프트
+% 2) 필터 설계/차수 선택 (명시 NV 없고, 기본설정 미사용 시)
+if ~providedFilterDesign && ~skipInteractive
+    try
+        if filterType == "lowpass"
+            designs = ["elliptic","butter","bessel"];
+        else
+            designs = ["elliptic","butter","bessel","notch"];
+        end
+        % 기본값: 최근값이 허용 집합에 있으면 사용, 아니면 'elliptic'
+        defIdx = 1;
+        if isfield(prefs,'lastFilterDesign') && strlength(string(prefs.lastFilterDesign))>0
+            cur = lower(string(prefs.lastFilterDesign));
+            hit = find(cur == designs, 1, 'first');
+            if ~isempty(hit), defIdx = hit; end
+            % lowpass인데 notch였던 경우 보정
+            if filterType == "lowpass" && designs(defIdx) == "notch"
+                defIdx = 1;
+            end
+        end
+        fprintf('필터 설계 선택:\n');
+        for ii = 1:numel(designs)
+            fprintf('  %d) %s\n', ii, char(designs(ii)));
+        end
+        resp = input(sprintf('번호 입력 (1-%d) [Enter=%d]: ', numel(designs), defIdx), 's');
+        r = str2double(strtrim(resp));
+        if isfinite(r) && r>=1 && r<=numel(designs)
+            filterDesign = designs(round(r));
+        elseif isempty(resp)
+            filterDesign = designs(defIdx);
+        else
+            filterDesign = designs(defIdx);
+            fprintf('입력을 해석하지 못해 기본값(%d=%s)을 사용합니다.\n', defIdx, char(designs(defIdx)));
+        end
+        try, prefs.lastFilterDesign = char(filterDesign); catch, end
+    catch
+        % 실패 시 기존 값 유지
+    end
+end
+
+if ~providedFilterOrder && ~skipInteractive
+    try
+        defOrd = filtOrder;
+        if isfield(prefs,'lastFilterOrder') && isfinite(prefs.lastFilterOrder) && prefs.lastFilterOrder>0
+            defOrd = max(1, round(prefs.lastFilterOrder));
+        end
+        resp = input(sprintf('필터 차수 N 입력 [Enter=기본 %d]: ', defOrd), 's');
+        rr = str2double(strtrim(resp));
+        if isfinite(rr) && rr>0
+            filtOrder = round(rr);
+        elseif isempty(resp)
+            filtOrder = defOrd;
+        else
+            fprintf('유효하지 않은 입력입니다. 기본 차수 %d 사용.\n', defOrd);
+            filtOrder = defOrd;
+        end
+        try, prefs.lastFilterOrder = filtOrder; catch, end
+    catch
+        % 실패 시 기존 값 유지
+    end
+end
+
+% 3) 각 유형별 추가 파라미터 프롬프트
 cutoffProvided = false; bandstopProvided = false;
 if numel(varargin) >= argStart
     nv = varargin(argStart:end);
@@ -286,7 +450,7 @@ if numel(varargin) >= argStart
 else
     nv = {};
 end
-if filterType == "lowpass" && ~cutoffProvided
+if filterType == "lowpass" && ~cutoffProvided && ~skipInteractive
     try
         % 기본값: 최근 사용값 -> 현재 기본값 순
         defCut = cutoffHz;
@@ -310,7 +474,7 @@ if filterType == "lowpass" && ~cutoffProvided
     catch
         % 프롬프트 실패 시 기본값 유지
     end
-elseif filterType == "bandstop" && ~bandstopProvided
+elseif filterType == "bandstop" && ~bandstopProvided && ~skipInteractive
     try
         % 기본값: 최근 사용 구간
         if isfield(prefs,'lastBandstopHz') && numel(prefs.lastBandstopHz) == 2 && all(isfinite(prefs.lastBandstopHz))
@@ -348,6 +512,87 @@ elseif filterType == "bandstop" && ~bandstopProvided
     end
 end
 
+% 4) WaveletUseFiltered 선택 (명시 NV 없고, 기본설정 미사용 시)
+providedWaveUseFiltered = false;
+if numel(varargin) >= argStart
+    nv = varargin(argStart:end);
+    for ii = 1:2:numel(nv)
+        if ii <= numel(nv) && (ischar(nv{ii}) || isstring(nv{ii}))
+            if strcmpi(string(nv{ii}), 'WaveletUseFiltered')
+                providedWaveUseFiltered = true; break;
+            end
+        end
+    end
+end
+% RunWavelet이 true일 때만 Wavelet 신호 선택을 물음
+if ~providedWaveUseFiltered && ~skipInteractive && runWavelet
+    try
+        defWave = waveUseFiltered;
+        if isfield(prefs,'lastWaveletUseFiltered')
+            try, defWave = logical(prefs.lastWaveletUseFiltered); catch, end
+        end
+        resp = input(sprintf('Wavelet에서 필터 신호 사용? [y/N] (기본: %s): ', local_boolstr(defWave)), 's');
+        r = lower(strtrim(resp));
+        if isempty(r)
+            waveUseFiltered = defWave;
+        elseif any(strcmp(r, {'y','yes'}))
+            waveUseFiltered = true;
+        elseif any(strcmp(r, {'n','no'}))
+            waveUseFiltered = false;
+        else
+            waveUseFiltered = defWave;
+            fprintf('입력을 해석하지 못해 기본값(%s)을 사용합니다.\n', local_boolstr(defWave));
+        end
+    catch
+        % 실패 시 기존 값 유지
+    end
+end
+
+% 5) DerivFrom 선택 (명시 NV 없고, 기본설정 미사용 시)
+providedDerivFrom = false;
+if numel(varargin) >= argStart
+    nv = varargin(argStart:end);
+    for ii = 1:2:numel(nv)
+        if ii <= numel(nv) && (ischar(nv{ii}) || isstring(nv{ii}))
+            if strcmpi(string(nv{ii}), 'DerivFrom')
+                providedDerivFrom = true; break;
+            end
+        end
+    end
+end
+% 도식(3행 미분) 생성 시에만 미분 기준을 물음
+if ~providedDerivFrom && ~skipInteractive && doPlot
+    try
+        defDeriv = derivFrom;
+        if isfield(prefs,'lastDerivFrom') && strlength(string(prefs.lastDerivFrom))>0
+            cand = lower(string(prefs.lastDerivFrom));
+            if any(cand==["filtered","raw"]) 
+                defDeriv = cand;
+            end
+        end
+        defNum = 1; if defDeriv=="raw", defNum = 2; end
+        fprintf('미분 기준 선택:\n  1) filtered (필터 신호 기준)\n  2) raw (원신호 기준)\n');
+        resp = input(sprintf('번호 입력 (1/2) [Enter=%d]: ', defNum), 's');
+        r = strtrim(resp);
+        if strcmp(r,'2')
+            derivFrom = "raw";
+        elseif strcmp(r,'1')
+            derivFrom = "filtered";
+        elseif isempty(r)
+            if defNum == 2, derivFrom = "raw"; else, derivFrom = "filtered"; end
+        else
+            if defNum == 2
+                derivFrom = "raw";
+            else
+                derivFrom = "filtered";
+            end
+            fprintf('입력을 해석하지 못해 기본값(%d=%s)을 사용합니다.\n', defNum, char(derivFrom));
+        end
+    catch
+        % 실패 시 기존 값 유지
+    end
+end
+
 % 프롬프트 후, 최근값 저장 시도 (NV로 전달된 값도 반영)
 try
     prefs.lastFilterType = char(filterType);
@@ -360,6 +605,10 @@ try
             prefs.lastBandstopHz = bandstopHz;
         end
     end
+    try, prefs.lastFilterDesign = char(filterDesign); catch, end
+    try, prefs.lastFilterOrder = filtOrder; catch, end
+    try, prefs.lastWaveletUseFiltered = logical(waveUseFiltered); catch, end
+    try, prefs.lastDerivFrom = char(derivFrom); catch, end
     local_save_prefs(dataDir, prefs);
 catch
 end
@@ -382,11 +631,13 @@ if paramSel == "BOTH"
         nv = [nv, {'CutoffHz', cutoffHz}]; %#ok<AGROW>
     end
     % FilterType/BandstopHz 전파: bandstop일 때 두 번째 호출에서 재프롬프트 방지
-    hasFT = false; hasBS = false;
+    hasFT = false; hasBS = false; hasFD = false; hasFO = false;
     for ii = 1:2:numel(nv)
         if ii <= numel(nv) && ischar(nv{ii})
             if strcmpi(nv{ii}, 'FilterType'), hasFT = true; end
             if strcmpi(nv{ii}, 'BandstopHz'), hasBS = true; end
+            if strcmpi(nv{ii}, 'FilterDesign'), hasFD = true; end
+            if strcmpi(nv{ii}, 'FilterOrder'), hasFO = true; end
         end
     end
     if ~hasFT
@@ -398,6 +649,50 @@ if paramSel == "BOTH"
         else
             % 안전상 빈 값은 넣지 않음: 두 번째 호출에서 다시 프롬프트되겠지만, 사용자가 첫 호출에서 입력했다면 bandstopHz는 유효할 것
         end
+    end
+    if ~hasFD
+        nv = [nv, {'FilterDesign', char(filterDesign)}]; %#ok<AGROW>
+    end
+    if ~hasFO
+        nv = [nv, {'FilterOrder', filtOrder}]; %#ok<AGROW>
+    end
+    % Wavelet 관련 옵션 전파: 재호출 시 재프롬프트 방지
+    hasRW = false; hasWUF = false; hasWAW = false; hasWSF = false; hasWFF = false; hasInt = false;
+    for ii = 1:2:numel(nv)
+        if ii <= numel(nv) && ischar(nv{ii})
+            switch lower(nv{ii})
+                case 'runwavelet',          hasRW  = true;
+                case 'waveletusefiltered',  hasWUF = true;
+                case 'waveletaskwindow',    hasWAW = true;
+                case 'waveletsavefig',      hasWSF = true;
+                case 'waveletfigformats',   hasWFF = true;
+                case 'interactive',         hasInt = true;
+            end
+        end
+    end
+    if ~hasRW,  nv = [nv, {'RunWavelet', logical(runWavelet)}]; %#ok<AGROW> 
+    end
+    if ~hasWUF, nv = [nv, {'WaveletUseFiltered', logical(waveUseFiltered)}]; %#ok<AGROW>
+    end
+    if ~hasWAW, nv = [nv, {'WaveletAskWindow', logical(waveAskWin)}]; %#ok<AGROW>
+    end
+    if ~hasWSF, nv = [nv, {'WaveletSaveFig', waveSaveFigOpt}]; %#ok<AGROW>
+    end
+    if ~hasWFF && ~isempty(waveFigFormatsOpt)
+        nv = [nv, {'WaveletFigFormats', waveFigFormatsOpt}]; %#ok<AGROW>
+    end
+    if ~hasInt
+        nv = [nv, {'Interactive', logical(interactive)}]; %#ok<AGROW>
+    end
+    % DerivFrom 전파: 재호출 시 재프롬프트 방지
+    hasDF = false;
+    for ii = 1:2:numel(nv)
+        if ii <= numel(nv) && ischar(nv{ii}) && strcmpi(nv{ii}, 'DerivFrom')
+            hasDF = true; break;
+        end
+    end
+    if ~hasDF
+        nv = [nv, {'DerivFrom', char(derivFrom)}]; %#ok<AGROW>
     end
     % 실행 순서: S11, S22 (출력 요청 시 S11을 반환)
     nvS11 = local_set_param_nv(nv, 'S11');
@@ -493,6 +788,7 @@ try
     end
     fprintf('- Save: %s, SaveFig: %s, FigFormats: %s\n', local_boolstr(doSave), local_boolstr(saveFig), fmtList);
     fprintf('- Plot: %s, PlotFilterResponse: %s, RunWavelet: %s\n', local_boolstr(doPlot), local_boolstr(plotFilterResp), local_boolstr(runWavelet));
+    fprintf('- WaveletUseFiltered: %s, DerivFrom: %s\n', local_boolstr(waveUseFiltered), char(derivFrom));
 catch
 end
 
@@ -896,9 +1192,16 @@ if doPlot
         ph_raw = ph_raw_rad;
         ph_lp  = ph_lp_rad;
     end
+    % 미분 기준 신호 선택: filtered(default) 또는 raw
+    switch derivFrom
+        case "filtered"
+            mag_base = mag_lp; ph_base = ph_lp;
+        case "raw"
+            mag_base = mag_raw; ph_base = ph_raw;
+    end
     % 비균일 샘플 간격에도 정확하도록 시간벡터 기반 도함수 사용
-    dmag_dt = local_derivative(time_s, mag_lp);
-    dph_dt  = local_derivative(time_s, ph_lp); % 플롯 단위와 일치(기본 deg)
+    dmag_dt = local_derivative(time_s, mag_base);
+    dph_dt  = local_derivative(time_s, ph_base); % 플롯 단위와 일치(기본 deg)
     if derivSmooth
         Wn_d = derivCutoffHz / (fs/2);
         if ~isfinite(Wn_d) || Wn_d <= 0
